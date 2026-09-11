@@ -1,0 +1,46 @@
+{
+  "id": "3b5da597-0f6b-440c-a7af-03b96df4968e",
+  "titulo": "CADASTRO NACIONAL DE INFORMAÇÕES SOCIAIS - CNIS",
+  "nome": "cadastro-nacional-de-informaes-sociais---cnis",
+  "organizacao": "instituto-nacional-do-seguro-social",
+  "descricao": "Contempla informações cadastrais, previdenciárias, trabalhistas e sociais dos cidadãos. Agrega informações oriundas de diversas fontes de informações administradas pelo Governo, referentes aos dados cadastrais de pessoa física, a vínculos e remunerações dos trabalhadores e a contribuições efetuadas pelos contribuintes individuais e facultativos. Vários sistemas alimentam o CNIS e, por isso, as informações, em especial, as que tratam de fatos geradores trabalhistas e previdenciários, são provenientes desses sistemas.",
+  "licenca": null,
+  "responsavel": "Diretoria de Benefícios e Relacionamento com o Cidadão",
+  "emailResponsavel": "cgais@inss.gov.br",
+  "periodicidade": "DIARIA",
+  "temas": [
+    {
+      "name": "previdencia-social",
+      "title": "Previdência Social"
+    }
+  ],
+  "tags": [
+    {
+      "id": "607cac5e-4c7c-4ae7-abcf-d2c38553a54e",
+      "name": "Cadastro",
+      "display_name": null
+    }
+  ],
+  "coberturaTemporalInicio": null,
+  "coberturaTemporalFim": null,
+  "coberturaEspacial": null,
+  "valorCoberturaEspacial": null,
+  "granularidadeEspacial": null,
+  "versao": "1.0",
+  "atualizacaoVersao": false,
+  "visibilidade": "PUBLICA",
+  "descontinuado": false,
+  "dataDescontinuacao": null,
+  "reuso": false,
+  "conjuntoDadosAssociados": [],
+  "dataUltimaAtualizacaoMetadados": "27/04/2026 10:00:02",
+  "dataUltimaAtualizacaoArquivo": "Indisponível",
+  "dataCatalogacao": "27/04/2026 13:00:02",
+  "atualizado": "Atualização não verificável",
+  "dadosRacaEtnia": null,
+  "dadosGenero": null,
+  "observanciaLegal": "Restrito - Informação Pessoal (Art. 31 da Lei nº 12.527/2011)",
+  "dadosAbertos": "Não",
+  "selo": "Nenhum",
+  "origemCadastro": "Portal"
+}

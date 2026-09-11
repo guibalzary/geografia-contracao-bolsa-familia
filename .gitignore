@@ -1,0 +1,31 @@
+# Dados brutos (baixados via pipeline/download_*.sh)
+data/raw/
+
+# Artefato intermediário pesado do DuckDB
+build.duckdb
+*.duckdb.wal
+
+# Catálogo bruto de exploração (arquivado fora do repo)
+catalogo_bruto/
+
+# Logs de execução
+*.log
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Ambientes Python
+venv/
+.env
+.venv/
+env/
+
+# Arquivo de reorganização (uso local)
+reorganizacao.log
+reorganiza_repo.py

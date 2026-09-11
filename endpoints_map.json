@@ -1,0 +1,407 @@
+[
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/conjuntos-dados/{id}",
+    "summary": "Detalha um conjunto de dados",
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "PUT",
+    "path": "/dados/api/publico/conjuntos-dados/{id}",
+    "summary": "Atualiza um conjunto de dados (Exclusivo para administradores de organização)",
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "DELETE",
+    "path": "/dados/api/publico/conjuntos-dados/{id}",
+    "summary": "Exclui um conjunto de dados (Exclusivo para administradores de organização)",
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "PATCH",
+    "path": "/dados/api/publico/conjuntos-dados/{id}",
+    "summary": "Atualiza partes de um conjunto de dados (Exclusivo para administradores de organização)",
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "POST",
+    "path": "/dados/api/solicitacoes/resposta",
+    "summary": "Resposta de Solicitações (Exclusivo para administradores de organização)",
+    "tags": [
+      "Solicitações"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "POST",
+    "path": "/dados/api/reuso/salvar",
+    "summary": "Criar novo reúso",
+    "tags": [
+      "Reúsos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": [
+      "nome",
+      "url",
+      "descricao",
+      "idsTipo",
+      "nomeResponsavel",
+      "emailResponsavel",
+      "dataLancamento",
+      "dataDescontinuado",
+      "idsConjuntoDados",
+      "conjuntosDadosNaoCatalogados",
+      "idsTemas",
+      "idsPalavrasChave",
+      "privado"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/dados/api/recurso/salvar",
+    "summary": "Salvar Recurso (Exclusivo para administradores de organização)",
+    "tags": [
+      "Recursos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/conjuntos-dados",
+    "summary": "Lista conjuntos de dados",
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": [
+      "nomeConjuntoDados",
+      "dadosAbertos",
+      "isPrivado",
+      "idOrganizacao",
+      "pagina"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/dados/api/publico/conjuntos-dados",
+    "summary": "Cria um conjunto de dados (Exclusivo para administradores de organização)",
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "PATCH",
+    "path": "/dados/api/reuso/atualiza/{id}",
+    "summary": "Atualizar reúso",
+    "tags": [
+      "Reúsos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": [
+      "nome",
+      "url",
+      "descricao",
+      "idsTipo",
+      "nomeResponsavel",
+      "emailResponsavel",
+      "dataLancamento",
+      "dataDescontinuado",
+      "idsConjuntoDados",
+      "conjuntosDadosNaoCatalogados",
+      "idsTemas",
+      "idsPalavrasChave",
+      "privado"
+    ]
+  },
+  {
+    "method": "PATCH",
+    "path": "/dados/api/publico/reusos/homologacao/pendente/{idReuso}",
+    "summary": "Enviar reúso para homologação",
+    "tags": [
+      "Reúsos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/temas",
+    "summary": "Consulta de temas",
+    "tags": [
+      "Temas"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/tags",
+    "summary": "Consulta de tags",
+    "tags": [
+      "Tags"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": [
+      "nome"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/solicitacoes",
+    "summary": "Consulta de Solicitações",
+    "tags": [
+      "Solicitações"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": [
+      "filtro"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/reusos",
+    "summary": "Lista reúsos",
+    "tags": [
+      "Reúsos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": [
+      "nomeReuso",
+      "nomeAutor",
+      "idOrganizacao"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/reuso/{id}",
+    "summary": "Detalha um reúso",
+    "tags": [
+      "Reúsos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/organizacao",
+    "summary": "Lista organizações",
+    "tags": [
+      "Organização"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": [
+      "nome",
+      "pagina"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/organizacao/{id}",
+    "summary": "Detalha uma organização",
+    "tags": [
+      "Organização"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/conjuntos-dados/{id}/tag",
+    "summary": "Lista tags de um conjunto de dados",
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/conjuntos-dados/observancia-legal",
+    "summary": null,
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/conjuntos-dados/objetivos-desenvolvimento-sustentavel",
+    "summary": null,
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "GET",
+    "path": "/dados/api/publico/conjuntos-dados/formatos",
+    "summary": null,
+    "tags": [
+      "Conjuntos de dados"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "DELETE",
+    "path": "/dados/api/recurso/{id}",
+    "summary": "Excluir Recurso (Exclusivo para administradores de organização)",
+    "tags": [
+      "Recursos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  },
+  {
+    "method": "DELETE",
+    "path": "/dados/api/publico/reusos/{idReuso}",
+    "summary": "Excluir reúso",
+    "tags": [
+      "Reúsos"
+    ],
+    "security_declared": [
+      {
+        "Authorization": []
+      }
+    ],
+    "anon_ok_by_spec": false,
+    "query_params": []
+  }
+]
